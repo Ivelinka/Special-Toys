@@ -1,0 +1,27 @@
+/* * {
+  padding: 0;
+  margin: 0;
+} */
+
+body{
+  font-family: 'Arial', sans-serif;
+  overflow-x: hidden;
+  background-image: linear-gradient(to right, rgb(245, 107, 210), aqua);
+}
+
+.container {
+  width: 50%;
+  margin: auto;
+}
+
+.container.signin {
+  margin-top: 20px;
+}
+
+textarea {
+  height: 80px;
+}
+
+#user-purchase-page {
+  margin-top: 10%;
+}

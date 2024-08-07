@@ -1,0 +1,104 @@
+#h1Dash{
+    display: block;
+    margin: auto;
+    margin-top: -34px;
+    margin-left: 20%;
+    padding: 23px;
+    width: 60%;
+    font-weight: bold;
+    font-size: 50px;
+    text-decoration: none;
+    color: black;
+}
+
+#toys {
+    display: flex;
+    flex-wrap: wrap;
+    width: 40%;
+    /* margin-right: -15px; */
+    /* margin-left: -15px; */
+    text-align: center;
+    margin-left: 30%;
+    justify-content: space-evenly;
+
+}
+
+/* .sliders{
+    width: 14%;
+  } */
+
+  .norm {
+    margin-top: 80%;
+  }
+  .sliders {
+    height: 520px;
+    width: 280px;
+    margin: auto;
+    margin-top: 50px;
+    margin-left: 40%;
+    position: absolute;
+    overflow: hidden;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .slider, .toy-name, #data-buttons{
+    width: 280px;
+    position: absolute;  
+    transition: 1s;
+  }
+  .slider img {
+    height: 300px;
+    width: 280px;
+    object-fit: contain;
+    /* raboti kato bgsize no za kartinkata */
+  }
+
+  .sliders{
+    margin-top: -5%;
+  }
+
+  .toy-name {
+    margin-left: 30%;
+  }
+  
+ button:nth-child(1){
+    /* display: none; */
+    margin-left: 30%;
+ }
+ button:nth-child(2){
+  margin-left: 25%;
+}
+
+ button:nth-child(1), button:nth-child(2){
+  border: none;
+  width: 100px;
+    transform: translateY(-50%);
+    cursor: pointer;
+    padding: 8px;
+    background-color: rgba(219, 163, 232, 0.927);
+    color: white;
+    border-radius: 5px;
+    margin-top: 15%;
+    box-shadow: inset 2px 2px 2px; 
+  }
+
+  button:nth-child(1):hover, button:nth-child(2):hover{
+    box-shadow:
+    inset 5px 5px 6px #837f7f,
+    inset -5px -5px 6px #e2dfdf;
+color: #837f7f;
+  }
+  
+  button:active{
+    background-color: rgb(196, 196, 220);
+  }
+
+  #formDiv{
+    margin-top: 10%;
+  }
+  .details {
+    text-decoration: none;
+    color: white;
+  }

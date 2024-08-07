@@ -1,0 +1,17 @@
+{
+    "1":{"id": "1",
+    "name" : "Green",
+    "pic": "/images/green-bear.png",
+    "description": "Diana must contend with.",
+    "_createdOn": "1614935055355"},
+    "2":{"id": "2",
+    "name" : "Yello",
+    "pic": "/images/yellow-bear.png",
+    "description": "Diana must contend with.",
+    "_createdOn": "1614935055354"},
+    "3":{"id": "3",
+    "name" : "Pink",
+    "pic": "/images/pink-bear.png",
+    "description": "Diana must contend with.",
+    "_createdOn": "1614935055353"}
+  }

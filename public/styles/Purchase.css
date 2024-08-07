@@ -1,0 +1,31 @@
+
+th, td {
+    display: inline-flex;
+    background-color: white;
+      border: none;
+      border-radius: 10px;
+      padding: 20px;
+      margin: 20px;
+      box-shadow: 0 5px 5px rgba(11, 0, 0, 0.767);
+      font-family: 'Roboto', sans-serif
+  }
+  
+  th:nth-child(1){
+      background-image:linear-gradient(65deg, rgb(67, 200, 241), rgb(197, 238, 224));
+  }
+  th:nth-child(2){
+    background-image:linear-gradient(65deg, rgb(222, 246, 238), rgb(201, 80, 226));
+}
+  
+  
+  #purchase-table {
+      margin: 10px;
+      margin-left: 35%;
+      margin-top: 15%;
+  }
+  .user-info {
+    margin-left: 40%;
+  }
+  .title {
+    margin-right: 80%;
+  }

@@ -1,0 +1,94 @@
+#welcome {
+    font-family: monospace;
+}
+#add {
+    width: 800px;
+    margin-left: 25%;
+}
+#neon, #add {
+    font-size: 50px;
+    animation: neon 4s ease infinite
+}
+@keyframes neon {
+    0%,
+    100% {
+        text-shadow: 0 0 10px #554a55a8, 0 0 20px #ef00e3a8, 0 0 20px #d6a2d4a8, 0 0 20px #d885d4a8, 0 0 2px #fed128, 2px 2px 2px #806914;
+        color: #0f3484;
+    }
+    50% {
+        text-shadow: 0 0 2px #f0bebd, 0 0 5px #da4e4a, 0 0 5px #800e0b, 0 0 5px #3209fb, 0 0 2px #800e0b, 4px 4px 2px #40340a;
+        color: #eda0d3;
+    }
+  }
+h2 {
+    text-align: center;
+}
+
+.button, .btn2 {
+    border-radius: 5px;
+    position: relative;
+    font-size: 1rem;
+    background-color: rgba(217, 177, 238, 0.927);
+    color:white;
+    padding: 16px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 24%;
+    opacity: 0.9;
+}
+.btn2:hover {
+    box-shadow:
+    inset 5px 5px 6px #acacac,
+    inset -5px -5px 6px #e2dfdf;
+color: #acacac;
+}
+#button-div{
+    margin-top: 10%;
+    height: 200px;
+}
+.btn2:nth-child(1){
+    width: 100px;
+    border-radius: 5px;
+    /* margin-top: 20%; */
+    margin-left: 40%;
+}
+.btn2:nth-child(2){
+    width: 100px;
+    border-radius: 5px;
+    /* margin-top: 10%; */
+    margin-left: 10%;
+}
+#welcome-container {
+    margin-left: 20%;
+    /* margin-top: 50%; */
+}
+#welcome-container h1 {
+    text-align: initial;
+}
+
+section h1 {
+    text-align: center;
+}
+ a {
+    text-decoration: none;
+    color: black;
+ }
+ 
+ .searchImg {
+    width: 100px;
+ }
+ /* #create-form {
+    margin-top: 10%;
+ } */
+  /* #name, #description, #imageUrl {
+    width: 50%;
+    height: 15px;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    display: inline-block;
+    border: none;
+    border-radius: 5px;
+    background: #f1f1f1;
+  } */
+

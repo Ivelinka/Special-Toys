@@ -1,0 +1,202 @@
+#login, #register, #create{
+    margin-top: 120px;
+}
+
+.container {
+    /* background-color: white; */
+    padding: 16px;
+    text-align: center;
+}
+
+.searchForm {
+    display: flex;
+    width: 80%;
+    align-items: center;
+    justify-content: center;
+}
+#search-input {
+    width: 30%;
+    height: 15px;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    border: none;
+    border-radius: 5px;
+    background: #f1f1f1;
+    margin-left: 25%;
+    margin-top: 5%;
+  }
+  /* .button-list {
+    position: absolute;
+    margin-left: 40%;
+    margin-top: -10%;
+  } */
+  
+  .isSearched {
+    visibility: visible;
+  }
+  .notSearched {
+    visibility: hidden;
+  }
+  .areaComment {
+    width: 30%;
+  }
+
+ 
+#email, #password, #repeat-password, #name, #description, #imageUrl{
+    width: 50%;
+    height: 15px;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    display: inline-block;
+    border: none;
+    border-radius: 5px;
+    background: #f1f1f1;
+}
+
+input[type=text]:focus, input[type=email]:focus, input[type=number]:focus, input[type=password]:focus ,textarea:focus{
+    background-color: #ddd;
+    outline: none;
+}
+.loginbtn {
+    top: 50%;
+}
+.registerbtn {
+    top: 62%;
+}
+.createbtn{
+    top:53%
+}
+
+.loginbtn, .registerbtn, .createbtn{
+    position: relative;
+    left: 50%;   
+    color: white;
+    background-color: rgba(219, 163, 232, 0.927);
+    margin: 8px 0;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transform: translateX(-50%);
+    /* centrirane */
+    height: 25px;
+    opacity: 0.9;
+    box-shadow: inset 2px 2px 2px;  
+   display: block;
+}
+.registerbtn {
+    margin-top: 1%;
+}
+.loginbtn:hover, .registerbtn:hover, .createbtn:hover {
+    box-shadow:
+    inset 5px 5px 6px #837f7f,
+    inset -5px -5px 6px #e2dfdf;
+color: #837f7f;
+}
+
+
+ .container.signin {
+    top: 72%; 
+    left: 38%;
+}
+
+.container.signup {
+    top: 60%; 
+    left: 38%;   
+} 
+
+.container.signup p{
+    position: absolute;
+    background-color: #f4cee7;
+    text-align: center;
+    border-radius: 5px;
+    width: 24%;
+    height:20px;
+    margin-left: -1%;
+    margin-top: 5%;
+}
+.container.signin p {
+    position: absolute;
+    background-color: #f4cee7;
+    text-align: center;
+    border-radius: 5px;
+    width: 24%;
+    height:20px;
+    margin-left: -1%;
+    margin-top: 2%;
+}
+
+.signin a, .signup a {
+    color: rgb(109, 103, 235);
+}
+
+#details {
+    margin-bottom: 30px;
+}
+
+#edit-toy>form>div>p:nth-child(2) {
+    border-bottom: 3px solid lightgrey;
+    margin: auto;
+    margin-bottom: 34px;
+    padding: 23px;
+    width: 60%;
+    font-weight: bold;
+    font-size: 50px;
+    text-decoration: none;
+    color: black;
+}
+
+#create-toy>form>div>h1 {
+    border-bottom: 3px solid lightgrey;
+    margin: auto;
+    margin-bottom: 34px;
+    padding: 23px;
+    width: 60%;
+    font-weight: bold;
+    font-size: 50px;
+    text-decoration: none;
+    color: black;
+}
+
+.gender label:first-of-type {
+    margin-right: 60px;
+}
+
+.container > label{
+    display: block;
+}
+
+#add {
+    color: white;
+    text-decoration: none;
+    margin-left: 40%;
+    border: none;
+    cursor: pointer;
+    appearance: none;
+    background-color: inherit;
+    width: 20%;
+    margin-top: 10%;
+    box-shadow: none; 
+}
+
+#create-form, #edit-form {
+    margin-top: 10%;
+}
+.button-list {
+    border-radius: 5px;
+    position: relative;
+    font-size: 1rem;
+    background-color: rgba(163, 232, 199, 0.927);
+    color:white;
+    padding: 16px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 24%;
+    opacity: 0.9;
+}
+.button-list:hover {
+    box-shadow:
+    inset 5px 5px 6px #acacac,
+    inset -5px -5px 6px #e2dfdf;
+color: #acacac;
+}
